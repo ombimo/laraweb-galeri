@@ -1,0 +1,23 @@
+{
+    "name": "ombimo/laraweb-galeri",
+    "description": "laraweb galeri",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bimo Aji Pamungkas",
+            "email": "bimo.aji.92@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ombimo\\LarawebGaleri\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ombimo\\LarawebGaleri\\LarawebGaleriServiceProvider"
+            ]
+        }
+    }
+}
